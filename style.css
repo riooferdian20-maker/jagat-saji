@@ -1,0 +1,171 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-family: Georgia;
+    font-weight: 800;
+    color: #f8f6f5;
+    float: left;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(5, 5, 0);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(244, 242, 242);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.nav-icons {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 80px;
+}
+
+.nav-icons img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+a.order {
+    background: #f0960e;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.kolom {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #121212;
+}
+
+.kolom .deskripsi {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #eb9700;
+    line-height: 25px;
+}
+
+.kolom h2 {
+    font-family: 'Comic Sans MS';
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #b97722;
+    width: 100%;
+    line-height: 60px;
+}
+
+.kolom p {
+    color: #0f0900;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.gambar {
+    margin-top: 50px;
+    width: 480px;
+    height: auto;
+    float: right;
+    border-radius: 24px;
+}
+
+.reservasi {
+    background-color: #f0960e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.katalog {
+    width: 300px;
+    margin: 20px 15px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    background-color: #f8e5bd;
+    border-radius: 10px;
+}
+
+.katalog img {
+    width: 280px;
+    height: 180px;
+}
+
+.katalog h3 {
+    margin: 10px;
+}
+
+.katalog p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+footer {
+    background-color: #11110b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+  }
